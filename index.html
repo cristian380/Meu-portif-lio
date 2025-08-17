@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=".\imagens\fivacon.png"image>
+    <link rel="stylesheet" href=".\css\css.css">
+    <title>social</title>
+</head>
+<body> 
+    <h1>Minhas redes sociais</h1>
+    <h2>Quem sou eu?</h2>
+    <img src=".\imagens\foto de perfil.jpg" alt="Foto de perfil">  
+<pre>
+    Meu nome é <strong>Cristian</strong>, 
+    sou estudante de escola pública desde sempre. Produzo conteúdo no meu Instagram e TikTok, e no momento estou aprendendo HTML5 e CSS3.
+    Estou gostando muito e pretendo trabalhar na construção de sites.
+  </pre>
+    <h1>Como falar comigo?</h1>
+   <ul>
+</a>
+    <li>
+         <a href="mailto:santannarege@gmail.com?subject=Contato%20pelo%20site&body=Olá%20Cristian,%20quero%20falar%20com%20você." class="social-link">
+            <img src=".\imagens\email.png" alt="email">
+            <span>ㅤㅤㅤㅤㅤE-mail</span>
+        </a>
+    </li>
+    
+<li>
+        <a href="https://www.instagram.com/cristian.rj._/" target="_blank"  class="social-link">
+            <img src=".\imagens\instagram.png" alt="Instagram" target="_blank">
+            <span>ㅤㅤㅤㅤㅤ instagram</span>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://www.tiktok.com/@_cristianjr__" target="_blank"  class="social-link">
+            <img src=".\imagens\tiktok.png" alt="TikTok">
+            <span>ㅤㅤㅤㅤㅤTik tok </span>
+        </a>
+    </li>
+    <li>
+        <a href="https://api.whatsapp.com/send/?phone=5521997243123&text&type=phone_number&app_absent=0" class="social-link" target="_blank">
+            <img src=".\imagens\whatsapp.png" alt="WhatsApp">
+            <span>ㅤ ㅤㅤ ㅤ Whatsapp</span>
+        </a>
+    </li>
+</ul>
+      <a href="Pagina de Formulário de Cadastro.html" target="_blank">
+      <button id="meuBotao">Página de formulário</button>
+</a>
+    <script>
+        document.querySelectorAll("li").forEach(item => {
+            item.addEventListener("click", () => {
+                item.classList.add("clicked");
+                setTimeout(() => {
+                    item.classList.remove("clicked");
+                }, 300);
+            });
+        });
+    </script>
+  <footer>© 2025 Cristian rege. Todos os direitos reservados  </footer> 
+ 
+</body>
+</html>
